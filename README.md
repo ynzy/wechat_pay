@@ -29,4 +29,10 @@ npm i & node bin/www || pm2 start bin/www
 
 ```
 
-### 提交文件
+### 微信用户授权
+* request、memory-cache（缓存，模拟readis）
+* vue调用Node，Node调用微信
+
+* 微信授权跳转
+* 根据code获取openid信息
+* 向客户端写入cookie
